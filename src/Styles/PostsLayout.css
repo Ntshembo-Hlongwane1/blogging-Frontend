@@ -1,0 +1,43 @@
+.blog-post {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  width: 60%;
+  margin: 0% auto;
+  margin-top: 7rem;
+  padding: 1.5rem;
+}
+
+.blog-post-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  margin-bottom: 1.5rem;
+}
+
+.blog-post-top-userinfo {
+  display: flex;
+  align-items: center;
+}
+
+.blog-post-owner {
+  margin-left: 0.5rem;
+}
+
+.blog-post-edit-icon {
+  cursor: pointer;
+}
+
+.edit-menu {
+  position: absolute;
+  right: 400px;
+  top: 230px;
+  background-color: #f5f5f5f5;
+  padding: 1rem;
+}
+
+.edit-menu-option {
+  margin-bottom: 1rem;
+}

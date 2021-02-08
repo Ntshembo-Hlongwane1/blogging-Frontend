@@ -1,0 +1,47 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  top: 0%;
+  z-index: 999;
+  background-color: white;
+  position: sticky;
+}
+
+.nav-left {
+  width: 40%;
+}
+.nav-right {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  justify-content: flex-end;
+}
+
+.nav-right-link {
+  margin-right: 1rem;
+  font-weight: 300;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.nav-right-link:hover {
+  border-bottom: 1px solid black;
+}
+
+.profilePicture-icon:hover {
+  border-bottom: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 830px) {
+  .nav-right-link {
+    display: none;
+  }
+  .profilePicture-icon {
+    display: flex;
+  }
+  .nav-left-companyName {
+    font-size: 1.1rem;
+  }
+}

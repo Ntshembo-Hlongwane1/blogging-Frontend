@@ -1,0 +1,27 @@
+.new-blog {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.new-blog-inputField {
+  border: 0;
+  border-bottom: 1px solid black;
+  outline: 0;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  display: block;
+  margin: 0% auto;
+  margin-top: 1rem;
+}
+
+.btn-new-blog {
+  display: block;
+  margin: 0% auto;
+  margin-top: 1rem;
+}
+
+.new-blog-header {
+  letter-spacing: 10px;
+}

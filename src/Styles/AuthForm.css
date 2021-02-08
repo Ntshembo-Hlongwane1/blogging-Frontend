@@ -1,0 +1,24 @@
+.form {
+  display: flex;
+  flex-flow: column;
+  margin-top: 2rem;
+}
+
+.form-signup {
+  position: absolute;
+  left: 70%;
+}
+
+.form-signin {
+  position: absolute;
+  left: 12%;
+}
+
+.form-header {
+  margin-bottom: 1.5rem;
+  letter-spacing: 10px;
+}
+
+.auth-inputField {
+  margin-bottom: 1rem;
+}
